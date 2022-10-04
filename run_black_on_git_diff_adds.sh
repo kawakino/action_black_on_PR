@@ -27,4 +27,4 @@ else
     line_length="${LINE_LENGTH}"
 fi
 
-black --line-length ${line_length} --check ${python_files} --diff --color
+black --line-length ${line_length} --check ${python_files} --diff --color --exclude="snap_*" 
